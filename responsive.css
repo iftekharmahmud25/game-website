@@ -43,7 +43,7 @@
     .banner-text {
         
         margin: 0 auto;
-        /* padding-left: 10%; */
+        
         margin-bottom: 0px;
     }
 
@@ -93,5 +93,31 @@
         margin-top: 28px;
         margin-bottom: 10px;
     }
+
+    /* footer section start here */
+      .footer-logo{
+        justify-content: center;
+      }
+     .footer-item{
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        padding-left: 10%;
+        gap: 5px;
+     }
+     .social-link{
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+     }
+
+     .footer-policy{
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+        padding-top: 20px;
+     }
+     .copyright{
+        font-size: 10px;
+     }
+
+    /* footer section ends here */
 
 }
