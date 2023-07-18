@@ -1,4 +1,8 @@
 @media screen and (max-width :576px) {
+    * {
+        margin: 0;
+    }
+
     .nav-container {
         flex-direction: column;
         margin-bottom: 50%;
@@ -11,7 +15,7 @@
 
     .nav-social {
         width: 230px;
-        height: 40px;
+        height: 60px;
         flex-shrink: 0;
         text-align: center;
         padding-left: 5%;
@@ -37,8 +41,9 @@
     }
 
     .banner-text {
+        
         margin: 0 auto;
-        padding-left: 10%;
+        /* padding-left: 10%; */
         margin-bottom: 0px;
     }
 
@@ -47,27 +52,46 @@
         cursor: pointer;
     }
 
+    .banner-btn {
+        margin-top: 12px;
+    }
+
     .rogue-btn {
         padding: 6px 12px;
         cursor: pointer;
     }
-    .gamer-section{
+
+    .gamer-section {
         margin-top: 35%;
-        width: 100%;
-        
     }
-    .game-container{
-        
+
+    .game-container {
         flex-direction: column;
-        
-        
     }
-    .game-img{
+
+    .game-img img{
         width: 100%;
         margin: 0 auto;
-        
-    
-        
+    }
+
+    .game-text {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .game-title{
+        margin-bottom: 18px;
+        margin-top: 10px;
+    }
+    .game-text p{
+        margin-bottom: 13px;
+    }
+    .game-text h5{
+        margin-bottom: 30px;
+    }
+
+    .purpose-text{
+        margin-top: 28px;
+        margin-bottom: 10px;
     }
 
 }
