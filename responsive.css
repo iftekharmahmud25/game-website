@@ -51,6 +51,23 @@
         padding: 6px 12px;
         cursor: pointer;
     }
-
+    .gamer-section{
+        margin-top: 35%;
+        width: 100%;
+        
+    }
+    .game-container{
+        
+        flex-direction: column;
+        
+        
+    }
+    .game-img{
+        width: 100%;
+        margin: 0 auto;
+        
+    
+        
+    }
 
 }
