@@ -1,20 +1,56 @@
 @media screen and (max-width :576px) {
     .nav-container {
         flex-direction: column;
-        
+        margin-bottom: 50%;
     }
-    .nav-items{
+
+    .nav-items {
         flex-direction: column;
 
     }
 
-    .nav-social{
+    .nav-social {
+        width: 230px;
+        height: 40px;
+        flex-shrink: 0;
+        text-align: center;
+        padding-left: 5%;
         margin-bottom: 20px;
+        cursor: pointer;
     }
-    .nav-item{
+
+    .nav-item {
+        cursor: pointer;
         margin-top: 6px;
         margin-bottom: 12px;
     }
 
-    
+    .banner-container {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .banner-img {
+        width: 80%;
+        margin: 0 auto;
+        padding-left: 5%;
+    }
+
+    .banner-text {
+        margin: 0 auto;
+        padding-left: 10%;
+        margin-bottom: 0px;
+    }
+
+    .sign-btn {
+        padding: 6px 12px;
+        cursor: pointer;
+    }
+
+    .rogue-btn {
+        padding: 6px 12px;
+        cursor: pointer;
+    }
+
+
 }
