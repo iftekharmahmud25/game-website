@@ -26,6 +26,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    
 }
 
 .nav-icon img {
@@ -352,13 +354,6 @@ background-clip: text;
 
 /* game poster section end */
 
-
-
-
-
-
-
-
 /* career section */
 .career-container {
     background-image: url('./images/Group\ 14.png');
@@ -409,11 +404,6 @@ background-clip: text;
     border-radius: 50px;
 }
 
-
-
-
-
-
 /* zone */
 .zone-container {
     display: grid;
@@ -435,13 +425,10 @@ background-clip: text;
     display: none;
 }
 
-
-
 .zone-content {
     display: flex;
     align-items: center;
     gap: 5px;
-    /* margin-top: 6%; */
     padding-left: 1%;
     width: 223px;
     height: 60px;
@@ -500,9 +487,9 @@ background-clip: text;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     justify-content: center;
-
     margin-top: 30px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .footer-item p {
@@ -519,9 +506,6 @@ background-clip: text;
     font-size: 30px;
     cursor: pointer;
     padding-top: 15px;
-
-
-
 }
 
 .footer-policy {
@@ -530,7 +514,6 @@ background-clip: text;
     padding-left: 20%;
     cursor: pointer;
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
 }
@@ -546,14 +529,5 @@ background-clip: text;
     text-align: center;
     padding-top: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 /* footer section ends here */
