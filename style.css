@@ -14,6 +14,8 @@
 }
 
 .nav-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -149,6 +151,8 @@
 
 .gamer-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .game-container {
@@ -235,7 +239,7 @@ small p {
   .poster-container{
     max-width: 1000px;
     /* min-height: 500px; */
-    margin: 40px auto;
+    margin: 140px auto;
     /* border: 2px solid red; */
     display: flex;
     /* 
@@ -244,10 +248,15 @@ small p {
     justify-content:space-between ;
     align-items: center;
   }
+
+  
   .poster-text{
     /* width: 50%; */
     text-align: right;
     /* padding-top: 20%; */
+  }
+  .poster-content{
+    text-align: left;
   }
  
 .poster-text span{
@@ -256,7 +265,16 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.poster-content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .poster-text p{
+    color: #534C64;;
+}
+.poster-content p{
     color: #534C64;;
 }
 .poster-img{
@@ -271,6 +289,10 @@ background-clip: text;
     width: 80%;
     
 }
+
+.poster-prime{
+    width: 80%;
+}
 .poster-secondary{
     width: 20%;
     height: 40%;
@@ -278,6 +300,15 @@ background-clip: text;
    /* top: 290px; */
    top: 65%;
   left: 410px;
+}
+
+
+.poster-third{
+    width: 20%;
+    height: 45%;
+   position: absolute;
+   top: 65%;
+   left: 30%;
 }
 
 

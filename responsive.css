@@ -179,6 +179,20 @@
     font-size: 12px;
 }
 
+.online-game-card{
+    display: block;
+    /* margin: 0 auto; */
+    padding-left: 20%;
+}
+
+/* .online-game-card img{
+   width: 70%;
+} */
+.online-game-card p{
+    font-size: medium;
+    margin-bottom: 7%;
+}
+
 /* poster container */
 /* .poster-container{
     flex-direction: column;
@@ -187,10 +201,12 @@
     display: block;
 }
 
+
+
 .poster-text{
     text-align: center;
     margin-top: 7%;
-    margin-bottom: 7%;
+    margin-bottom: 2%;
 }
 .poster-text p{
     font-size: x-small;
@@ -202,11 +218,24 @@
 .poster-primary{
     padding-left: 14%;
 }
+.poster-content{
+    text-align: center;
+}
+
+.poster-prime{
+    padding-left: 14%;
+}
 
 .poster-secondary{
     height: 30%;
     top: 80%;
     left: 20%;
+}
+
+.poster-third{
+    height: 27%;
+    top: 20%;
+    left: 50%;
 }
 
 
