@@ -185,47 +185,150 @@ small p {
     margin-top: 0px;
 }
 
+/* online game */
+.onine-game-title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 700;
+}
+
+.online-title-span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: normal;
+}
+
+.online-game-subtitle {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 15px;
+    color: #a4a2a9;
+    margin-bottom: 10%;
+}
+
+.game-subtitle {
+    font-size: 15px;
+    color: #a4a2a9;
+}
+.online-game-card{
+    display: flex;
+    margin-left: 6%;
+
+
+}
+
+.online-game-card img {
+    width: 70%;
+    height: 70%;
+}
+
+
+
+
+
+/* game poster section start */
+  .poster-container{
+    max-width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    position: relative;
+    
+  }
+  .poster-text{
+    width: 50%;
+    text-align: center;
+    padding-top: 20%;
+  }
+  .poster-text-description{
+    margin-left: 15%;
+    color: #534C64;
+
+  }
+.poster-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.poster-text p{
+    margin-left: 7%;
+    font-size: 22px;
+    font-weight: bolder;
+    
+}
+.poster-primary{
+    width: 70%;
+    height: 70%;
+    
+}
+.poster-secondary{
+    width: 20%;
+    height: 40%;
+   position: absolute;
+   top: 150px;
+  left: 550px;
+}
+
+
+/* game poster section end */
+
+
+
+
+
+
+
+
 /* career section */
-.career-container{
+.career-container {
     background-image: url('./images/Group\ 14.png');
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 20%);
     display: flex;
     justify-content: space-around;
     color: #FFF;
     padding: 5%;
-    align-items: center;   
+    align-items: center;
 }
-.career-description{
+
+.career-description {
     width: 60%;
     font-size: smaller;
 }
 
-.career-container img{
+.career-container img {
     width: 80%;
 }
-.careear-text{
-    width: 70%;  
+
+.careear-text {
+    width: 70%;
 }
 
-.career-title{
+.career-title {
     font-size: 38px;
     margin-bottom: 2%;
     font-weight: 700;
 }
 
-.careear-content{
+.careear-content {
     margin-top: 4%;
     display: flex;
     width: 80%;
     justify-content: space-between;
 }
 
-.place{
+.place {
     text-align: end;
 }
-.career-btn{
+
+.career-btn {
     margin-top: 3%;
-    background:#fff;
+    background: #fff;
     color: #FF42A5;
     border: none;
     padding: 12px 9px;
@@ -238,22 +341,23 @@ small p {
 
 
 /* zone */
-.zone-container{
+.zone-container {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 10%;
     max-width: 1100px;
     margin: 40px auto;
     gap: 10px;
-    
+
 }
-.zoneContainer{
+
+.zoneContainer {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
 }
 
-.zone-feauters{
+.zone-feauters {
     display: none;
 }
 
@@ -286,6 +390,7 @@ small p {
     border-radius: 50px;
     color: #FF42A5;
 }
+
 /* footer section start here */
 .footer-section {
     background-color: #0B0223;
