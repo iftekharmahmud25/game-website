@@ -9,6 +9,8 @@
 .container {
     background: #FFF;
     box-shadow: 0px 4px 43px 0px rgba(0, 0, 0, 0.05);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .nav-container {
@@ -253,6 +255,9 @@ small p {
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+.poster-text p{
+    color: #534C64;;
 }
 .poster-img{
     /* padding-left: 1%; */

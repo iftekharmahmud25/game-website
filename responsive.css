@@ -179,8 +179,35 @@
     font-size: 12px;
 }
 
+/* poster container */
+/* .poster-container{
+    flex-direction: column;
+} */
+.poster-container{
+    display: block;
+}
 
+.poster-text{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.poster-text p{
+    font-size: x-small;
+    color: rgb(197, 200, 200);
+}
+.poster-img{
+    margin: 60px auto;
+}
+.poster-primary{
+    padding-left: 14%;
+}
 
+.poster-secondary{
+    height: 30%;
+    top: 80%;
+    left: 20%;
+}
 
 
 
